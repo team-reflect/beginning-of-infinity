@@ -6,7 +6,7 @@ import type {GetStaticProps, NextPage} from 'next'
 import {getNote} from 'server/helpers/notes'
 
 export const getStaticProps: GetStaticProps = async (context) => {
-  const notes = [await getNote('index')]
+  const notes = [await getNote('Home')]
 
   return {
     props: {notes},
@@ -14,8 +14,6 @@ export const getStaticProps: GetStaticProps = async (context) => {
 }
 
 const IndexPage: NextPage<{notes: Note[]}> = ({notes}) => {
-  console.log('index page')
-
   return (
     <Layout>
       <Header />
