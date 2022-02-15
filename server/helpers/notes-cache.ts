@@ -1,4 +1,4 @@
-import {Note} from 'app/models/note'
+import {Note} from 'app/interfaces/note'
 import {getNotes as uncachedGetNotes} from 'server/helpers/notes'
 
 let notes: Note[] = []

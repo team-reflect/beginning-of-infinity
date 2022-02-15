@@ -1,32 +1,34 @@
 import React, {useEffect, useMemo, useRef, useState} from 'react'
-import {Note} from 'app/models/note'
+import {Note} from 'app/interfaces/note'
 import {
   NoteBrowserItemWidthWithoutCollapsed,
   NotesBrowserItem,
 } from './notes-browser-item'
 import {getNote} from 'app/client/notes-cache'
+import {useRouter} from 'next/router'
 
 interface Props {
-  initialPath?: string
   initialNotes?: Note[]
 }
 
-export const NotesBrowser: React.FC<Props> = ({
-  initialPath = 'index',
-  initialNotes = [],
-}) => {
+export const NotesBrowser: React.FC<Props> = ({initialNotes = []}) => {
+  const router = useRouter()
   const ref = useRef<HTMLDivElement | null>(null)
   const [scrollLeft, setScrollLeft] = useState(0)
-  const initialNote = useMemo(
-    () => initialNotes.find((note) => note.path === initialPath),
-    [initialPath, initialNotes],
-  )
 
-  if (!initialNote) {
-    throw new Error(`No note found for path: ${initialPath}`)
+  const [viewNotes, setViewNotes] = useState<Note[]>(initialNotes)
+
+  const setStackedQuery = (notePaths: string[]) => {
+    const [firstPath, ...stackedPaths] = notePaths
+
+    const newUrl = new URL(location.origin + `/${firstPath}`)
+
+    for (const stackedPath of stackedPaths) {
+      newUrl.searchParams.append('stacked', stackedPath)
+    }
+
+    history.replaceState({}, '', newUrl)
   }
-
-  const [viewNotes, setViewNotes] = useState<Note[]>([initialNote])
 
   const onClickBacklink = async (
     event: React.MouseEvent,
@@ -37,10 +39,18 @@ export const NotesBrowser: React.FC<Props> = ({
 
     const appendNote = await getNote(path)
 
-    if (appendNote && !viewNotes.includes(appendNote)) {
-      const newNotes = [...viewNotes.slice(0, index + 1), appendNote]
-      setViewNotes(newNotes)
-    }
+    // Note doesn't exist
+    if (!appendNote) return
+
+    // We're already displaying this note
+    if (viewNotes.includes(appendNote)) return
+
+    // Find all notes that are stacked on top of this new index
+    const newNotes = [...viewNotes.slice(0, index + 1), appendNote]
+    setViewNotes(newNotes)
+
+    // Set the stacked query (excluding the initial note - usually index)
+    setStackedQuery(newNotes.map((note) => note.path))
   }
 
   const onScroll = () => {

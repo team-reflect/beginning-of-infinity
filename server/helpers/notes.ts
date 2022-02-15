@@ -1,7 +1,7 @@
 import fs from 'fs/promises'
 import path from 'path'
 import parseFrontMatter from 'front-matter'
-import {Note} from 'app/models/note'
+import {Note} from 'app/interfaces/note'
 
 const notesPath = path.join(process.cwd(), 'notes')
 
@@ -26,5 +26,6 @@ export const getNote = async (name: string) => {
     path: name,
     title: attributes?.title || name,
     markdown: body,
+    linkedFromPaths: [],
   } as Note
 }

@@ -1,6 +1,6 @@
 import {Transition} from '@headlessui/react'
 import {getNote} from 'app/client/notes-cache'
-import {Note} from 'app/models/note'
+import {Note} from 'app/interfaces/note'
 import {calculateBestPosition} from 'calculate-position'
 import React, {useEffect, useState} from 'react'
 import {PortalBody} from './portal-body'

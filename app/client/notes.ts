@@ -1,4 +1,4 @@
-import {Note} from 'app/models/note'
+import {Note} from 'app/interfaces/note'
 
 export const getNote = async (path: string): Promise<Note> => {
   const request = await fetch('/api/notes/' + path)

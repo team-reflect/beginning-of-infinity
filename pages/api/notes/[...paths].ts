@@ -1,4 +1,4 @@
-import {Note} from 'app/models/note'
+import {Note} from 'app/interfaces/note'
 import type {NextApiRequest, NextApiResponse} from 'next'
 import {getNote} from 'server/helpers/notes'
 

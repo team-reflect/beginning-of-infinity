@@ -1,4 +1,4 @@
-import {Note} from 'app/models/note'
+import {Note} from 'app/interfaces/note'
 import {getNote as uncachedGetNote} from './notes'
 
 interface PathNotes {
