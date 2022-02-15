@@ -4,7 +4,7 @@ import {NotesBrowser} from 'app/components/notes-browser'
 import {castArray} from 'app/helpers/array'
 import {Note} from 'app/interfaces/note'
 import type {GetServerSideProps, NextPage} from 'next'
-import {safeGetNote as getNote} from 'server/helpers/notes'
+import {getHydratedNote as getNote} from 'server/helpers/notes'
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
   const path = castArray(context.query.paths || []).join('/')

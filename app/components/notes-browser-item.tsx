@@ -3,6 +3,7 @@ import React from 'react'
 import {Note} from 'app/interfaces/note'
 import {NoteMarkdown} from './note-markdown'
 import {Transition} from '@headlessui/react'
+import {NoteLinks} from './note-links'
 
 interface Props {
   note: Note
@@ -61,9 +62,9 @@ export const NotesBrowserItem: React.FC<Props> = ({
         leaveFrom="opacity-100"
         leaveTo="opacity-0"
       >
-        <div className="flex-1 flex-col px-8 py-8 ">
-          <h2 className="font-medium text-2xl mb-5 hidden">{note.title}</h2>
+        <div className="flex-1 flex-col px-8 py-8 space-y-8">
           <NoteMarkdown markdown={note.markdown} onClickBacklink={onClickBacklink} />
+          <NoteLinks note={note} onClickBacklink={onClickBacklink} />
         </div>
       </Transition>
     </div>

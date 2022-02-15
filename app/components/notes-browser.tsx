@@ -43,7 +43,7 @@ export const NotesBrowser: React.FC<Props> = ({initialNotes = []}) => {
     if (!appendNote) return
 
     // We're already displaying this note
-    if (viewNotes.includes(appendNote)) return
+    if (viewNotes.map((n) => n.path).includes(appendNote.path)) return
 
     // Find all notes that are stacked on top of this new index
     const newNotes = [...viewNotes.slice(0, index + 1), appendNote]

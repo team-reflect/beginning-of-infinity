@@ -21,7 +21,7 @@ export const NotePreviewPopover: React.FC<Props> = ({
   path,
   coords,
   width = 420,
-  height = 250,
+  height = 200,
   padding = 15,
 }) => {
   const [note, setNote] = useState<Note | undefined | null>()
@@ -67,7 +67,7 @@ export const NotePreviewPopover: React.FC<Props> = ({
         >
           {note && (
             <>
-              <NoteMarkdown markdown={note.markdown.slice(0, 500)} />
+              <NoteMarkdown markdown={note.snippet} size="sm" />
             </>
           )}
         </div>

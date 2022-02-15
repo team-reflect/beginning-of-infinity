@@ -1,7 +1,7 @@
 import fs from 'fs/promises'
 import path from 'path'
 import parseFrontMatter from 'front-matter'
-import {Note} from 'app/interfaces/note'
+import {Note, NotePreview} from 'app/interfaces/note'
 
 const notesPath = path.join(process.cwd(), 'notes')
 
@@ -12,29 +12,62 @@ export const getNotes = async () => {
     .filter((name) => name.endsWith('.md'))
     .map((name) => name.replace('.md', ''))
 
-  return Promise.all(noteNames.map((name) => getNote(name)))
+  return Promise.all(noteNames.map((name) => readNote(name)))
 }
 
-export const getNote = async (name: string) => {
-  const escapedName = name.replace(/[^A-Za-z0-9_\s/]/g, '')
+const readNote = async (name: string) => {
+  const escapedName = name.replace(/[^A-Za-z0-9\s_\-/]/g, '')
 
   const file = await fs.readFile(path.join(notesPath, escapedName + '.md'), 'utf8')
 
-  const {attributes, body} = parseFrontMatter<{title: string | undefined}>(
-    file.toString(),
-  )
+  const {attributes, body} = parseFrontMatter<{
+    title: string | undefined
+    snippet: string | undefined
+  }>(file.toString())
 
   return {
     path: name,
     title: attributes?.title || name,
+    snippet: attributes?.snippet || markdownToSnippet(body),
     markdown: body,
-    linkedFromPaths: [],
   } as Note
 }
 
-export const safeGetNote = async (name: string) => {
+const markdownToSnippet = (markdown: string): string => {
+  return markdown
+    .replace(/^#.+/g, '')
+    .split('\n')
+    .filter((l) => l.trim())[0]
+}
+
+const noteToNotePreview = (note: Note): NotePreview => {
+  return {
+    path: note.path,
+    title: note.title,
+    snippet: markdownToSnippet(note.markdown),
+  }
+}
+
+export const getHydratedNote = async (name: string) => {
+  const allNotes = await getNotes()
+  const note = allNotes.find((n) => n.path === name)
+
+  if (!note) return null
+
+  const linkedFromNotes = allNotes
+    .filter((n) => n != note)
+    .filter((n) => n.markdown.includes(`[[${name}]]`))
+    .map(noteToNotePreview)
+
+  return {
+    ...note,
+    linkedFromNotes,
+  }
+}
+
+export const getNote = async (name: string) => {
   try {
-    return await getNote(name)
+    return await readNote(name)
   } catch (error) {
     console.error(error)
     return null

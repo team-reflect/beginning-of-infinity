@@ -2,15 +2,28 @@ import {marked} from 'marked'
 import React, {MouseEvent} from 'react'
 import {markdownToTokens} from 'app/helpers/markdown'
 import {NoteBacklink} from './note-backlink'
+import clsx from 'clsx'
 
 interface Props {
   markdown: string
+  style?: React.CSSProperties
+  size?: 'sm' | 'md'
   onClickBacklink?: (event: MouseEvent, path: string) => void
 }
 
-export const NoteMarkdown: React.FC<Props> = ({markdown, onClickBacklink}) => {
+export const NoteMarkdown: React.FC<Props> = ({
+  markdown,
+  onClickBacklink,
+  style,
+  size = 'md',
+}) => {
   return (
-    <div className="prose w-auto">{markdownToElements(markdown, {onClickBacklink})}</div>
+    <div
+      className={clsx('prose w-auto', size === 'sm' ? 'prose-sm' : 'prose-md')}
+      style={style}
+    >
+      {markdownToElements(markdown, {onClickBacklink})}
+    </div>
   )
 }
 

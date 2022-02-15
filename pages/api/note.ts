@@ -1,6 +1,6 @@
 import {Note} from 'app/interfaces/note'
 import type {NextApiRequest, NextApiResponse} from 'next'
-import {safeGetNote as getNote} from 'server/helpers/notes'
+import {getHydratedNote as getNote} from 'server/helpers/notes'
 
 interface ErrorResponse {
   error: {

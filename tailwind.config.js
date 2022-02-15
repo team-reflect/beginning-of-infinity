@@ -17,6 +17,15 @@ module.exports = {
             },
           },
         },
+
+        sm: {
+          css: {
+            h1: {
+              fontSize: '1rem',
+              fontWeight: 500,
+            },
+          },
+        },
       },
     },
   },
