@@ -16,6 +16,7 @@ export const getNotes = async () => {
 }
 
 export const getNote = async (name: string) => {
+  // TODO - insecure
   const file = await fs.readFile(path.join(notesPath, name + '.md'), 'utf8')
 
   const {attributes, body} = parseFrontMatter<{title: string | undefined}>(
@@ -28,4 +29,13 @@ export const getNote = async (name: string) => {
     markdown: body,
     linkedFromPaths: [],
   } as Note
+}
+
+export const safeGetNote = async (name: string) => {
+  try {
+    return await getNote(name)
+  } catch (error) {
+    console.error(error)
+    return null
+  }
 }

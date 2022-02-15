@@ -3,6 +3,7 @@ import {getNote} from 'app/client/notes-cache'
 import {Note} from 'app/interfaces/note'
 import {calculateBestPosition} from 'calculate-position'
 import React, {useEffect, useState} from 'react'
+import {NoteMarkdown} from './note-markdown'
 import {PortalBody} from './portal-body'
 
 export interface Props {
@@ -19,11 +20,11 @@ export interface Props {
 export const NotePreviewPopover: React.FC<Props> = ({
   path,
   coords,
-  width = 200,
-  height = 200,
+  width = 400,
+  height = 250,
   padding = 15,
 }) => {
-  const [note, setNote] = useState<Note | undefined>()
+  const [note, setNote] = useState<Note | undefined | null>()
 
   const anchor = {
     left: coords.left,
@@ -52,7 +53,7 @@ export const NotePreviewPopover: React.FC<Props> = ({
     <PortalBody>
       <Transition
         appear={true}
-        show={true}
+        show={note !== null}
         enter="transition-opacity duration-150"
         enterFrom="opacity-0"
         enterTo="opacity-100"
@@ -61,10 +62,14 @@ export const NotePreviewPopover: React.FC<Props> = ({
         leaveTo="opacity-0"
       >
         <div
-          className="absolute rounded-md shadow-lg ring-1 ring-gray-200 dark:ring-purple-700 ring-opacity-50 overflow-hidden bg-white px-5 py-3"
-          style={{left, top}}
+          className="absolute rounded-md shadow-lg ring-1 ring-gray-200 dark:ring-purple-700 ring-opacity-50 overflow-hidden bg-white px-5 py-4"
+          style={{left, top, width, height}}
         >
-          {note?.markdown.slice(0, 50)}
+          {note && (
+            <>
+              <NoteMarkdown markdown={note.markdown.slice(0, 500)} />
+            </>
+          )}
         </div>
       </Transition>
     </PortalBody>
