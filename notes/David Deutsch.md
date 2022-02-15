@@ -1,0 +1,1 @@
+The author of the [[Beginning of Infinity]]

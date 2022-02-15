@@ -1,0 +1,60 @@
+import {Transition} from '@headlessui/react'
+import {calculateBestPosition} from 'calculate-position'
+import React from 'react'
+import {PortalBody} from './portal-body'
+
+export interface Props {
+  path: string
+  width?: number
+  height?: number
+  padding?: number
+  coords: {
+    left: number
+    top: number
+  }
+}
+
+export const NotePreviewPopover: React.FC<Props> = ({
+  path,
+  coords,
+  width = 200,
+  height = 200,
+  padding = 15,
+}) => {
+  const anchor = {
+    left: coords.left,
+    top: coords.top,
+    width: padding,
+    height: padding,
+  }
+
+  const {left, top} = calculateBestPosition({
+    anchor,
+    dimensions: {
+      width,
+      height,
+    },
+  })
+
+  return (
+    <PortalBody>
+      <Transition
+        appear={true}
+        show={true}
+        enter="transition-opacity duration-150"
+        enterFrom="opacity-0"
+        enterTo="opacity-100"
+        leave="transition-opacity duration-150"
+        leaveFrom="opacity-100"
+        leaveTo="opacity-0"
+      >
+        <div
+          className="absolute rounded-md shadow-lg ring-1 ring-gray-200 dark:ring-purple-700 ring-opacity-50 overflow-hidden bg-white px-5 py-3"
+          style={{left, top}}
+        >
+          Preview of: {path}
+        </div>
+      </Transition>
+    </PortalBody>
+  )
+}
