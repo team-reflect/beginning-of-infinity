@@ -53,7 +53,7 @@ export const NotePreviewPopover: React.FC<Props> = ({
     <PortalBody>
       <Transition
         appear={true}
-        show={note !== null}
+        show={!!note}
         enter="transition-opacity duration-150"
         enterFrom="opacity-0"
         enterTo="opacity-100"
