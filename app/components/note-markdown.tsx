@@ -1,6 +1,6 @@
 import {marked} from 'marked'
 import React, {MouseEvent} from 'react'
-import {markdownToTokens} from '~/helpers/markdown'
+import {markdownToTokens} from 'app/helpers/markdown'
 import {NoteBacklink} from './note-backlink'
 
 interface Props {

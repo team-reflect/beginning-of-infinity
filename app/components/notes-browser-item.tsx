@@ -1,6 +1,6 @@
 import clsx from 'clsx'
 import React from 'react'
-import {Note} from '~/note'
+import {Note} from 'app/models/note'
 import {NoteMarkdown} from './note-markdown'
 import {Transition} from '@headlessui/react'
 

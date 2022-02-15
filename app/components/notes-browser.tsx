@@ -1,5 +1,5 @@
 import React, {useMemo, useRef, useState} from 'react'
-import {Note} from '~/note'
+import {Note} from 'app/models/note'
 import {
   NoteBrowserItemWidthWithoutCollapsed,
   NotesBrowserItem,
@@ -7,15 +7,16 @@ import {
 
 interface Props {
   initialPath?: string
-  notes: Note[]
+  initialNotes?: Note[]
 }
 
-export const NotesBrowser: React.FC<Props> = ({initialPath, notes}) => {
+export const NotesBrowser: React.FC<Props> = ({initialPath, initialNotes = []}) => {
+  const [notes, setNotes] = useState<Note[]>(initialNotes)
   const ref = useRef<HTMLDivElement | null>(null)
   const [scrollLeft, setScrollLeft] = useState(0)
   const initialNote = useMemo(
-    () => notes.find((note) => note.path === initialPath),
-    [initialPath],
+    () => initialNotes.find((note) => note.path === initialPath),
+    [initialPath, initialNotes],
   )
 
   if (!initialNote) {
@@ -27,16 +28,15 @@ export const NotesBrowser: React.FC<Props> = ({initialPath, notes}) => {
   const onClickBacklink = (event: React.MouseEvent, path: string, index: number) => {
     event.preventDefault()
 
-    const appendNote = notes.find((note) => note.title === path)!
+    const appendNote = notes.find((note) => note.path === path)
 
-    // if (viewNotes.includes(appendNote)) return
+    // TODO search cache
 
-    if (appendNote) {
+    if (appendNote && !viewNotes.includes(appendNote)) {
       const newNotes = [...viewNotes.slice(0, index + 1), appendNote]
       setViewNotes(newNotes)
+      setTimeout(() => scrollToIndex(index), 1)
     }
-
-    setTimeout(() => scrollToIndex(index), 1)
   }
 
   const onScroll = () => {
