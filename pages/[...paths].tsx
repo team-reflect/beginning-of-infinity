@@ -17,6 +17,8 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
 }
 
 const NotesShow: NextPage<{initialNotes: Note[]}> = ({initialNotes}) => {
+  console.log('index page')
+
   return (
     <Layout>
       <Header />

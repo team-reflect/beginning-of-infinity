@@ -13,8 +13,8 @@ export const getStaticProps: GetStaticProps = async (context) => {
   }
 }
 
-const IndexPage: NextPage<{notes: Note[]}> = ({notes}) => {
-  console.log('index page')
+const IndexPage2: NextPage<{notes: Note[]}> = ({notes}) => {
+  console.log('index page2')
 
   return (
     <Layout>
@@ -24,4 +24,4 @@ const IndexPage: NextPage<{notes: Note[]}> = ({notes}) => {
   )
 }
 
-export default IndexPage
+export default IndexPage2
