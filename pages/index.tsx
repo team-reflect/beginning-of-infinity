@@ -6,7 +6,7 @@ import type {GetStaticProps, NextPage} from 'next'
 import {getNote} from 'server/helpers/notes'
 
 export const getStaticProps: GetStaticProps = async (context) => {
-  const notes = [await getNote('Intro')]
+  const notes = [await getNote('Preface')]
 
   return {
     props: {notes},

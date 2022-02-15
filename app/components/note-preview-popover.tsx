@@ -20,7 +20,7 @@ export interface Props {
 export const NotePreviewPopover: React.FC<Props> = ({
   path,
   coords,
-  width = 400,
+  width = 420,
   height = 250,
   padding = 15,
 }) => {
