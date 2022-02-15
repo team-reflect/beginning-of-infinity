@@ -16,8 +16,9 @@ export const getNotes = async () => {
 }
 
 export const getNote = async (name: string) => {
-  // TODO - insecure
-  const file = await fs.readFile(path.join(notesPath, name + '.md'), 'utf8')
+  const escapedName = name.replace(/[^A-Za-z0-9_\s/]/g, '')
+
+  const file = await fs.readFile(path.join(notesPath, escapedName + '.md'), 'utf8')
 
   const {attributes, body} = parseFrontMatter<{title: string | undefined}>(
     file.toString(),
