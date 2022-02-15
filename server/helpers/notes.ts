@@ -3,7 +3,7 @@ import path from 'path'
 import parseFrontMatter from 'front-matter'
 import {Note} from 'app/models/note'
 
-const notesPath = path.join(__dirname, '..', 'notes')
+const notesPath = path.join(process.cwd(), 'notes')
 
 export const getNotes = async () => {
   const dir = await fs.readdir(notesPath)

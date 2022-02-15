@@ -1,3 +1,4 @@
+import {Layout} from 'app/components/layout'
 import {NotesBrowser} from 'app/components/notes-browser'
 import {Note} from 'app/models/note'
 import type {GetStaticProps, NextPage} from 'next'
@@ -12,7 +13,11 @@ export const getStaticProps: GetStaticProps = async (context) => {
 }
 
 const IndexPage: NextPage<{notes: Note[]}> = ({notes}) => {
-  return <NotesBrowser initialNotes={notes} initialPath="index" />
+  return (
+    <Layout>
+      <NotesBrowser initialNotes={notes} initialPath="index" />
+    </Layout>
+  )
 }
 
 export default IndexPage

@@ -1,6 +1,8 @@
 import {Transition} from '@headlessui/react'
+import {getNote} from 'app/client/notes-cache'
+import {Note} from 'app/models/note'
 import {calculateBestPosition} from 'calculate-position'
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import {PortalBody} from './portal-body'
 
 export interface Props {
@@ -21,6 +23,8 @@ export const NotePreviewPopover: React.FC<Props> = ({
   height = 200,
   padding = 15,
 }) => {
+  const [note, setNote] = useState<Note | undefined>()
+
   const anchor = {
     left: coords.left,
     top: coords.top,
@@ -35,6 +39,14 @@ export const NotePreviewPopover: React.FC<Props> = ({
       height,
     },
   })
+
+  const fetchNote = async () => {
+    setNote(await getNote(path))
+  }
+
+  useEffect(() => {
+    fetchNote()
+  }, [path])
 
   return (
     <PortalBody>
@@ -52,7 +64,7 @@ export const NotePreviewPopover: React.FC<Props> = ({
           className="absolute rounded-md shadow-lg ring-1 ring-gray-200 dark:ring-purple-700 ring-opacity-50 overflow-hidden bg-white px-5 py-3"
           style={{left, top}}
         >
-          Preview of: {path}
+          {note?.markdown.slice(0, 50)}
         </div>
       </Transition>
     </PortalBody>

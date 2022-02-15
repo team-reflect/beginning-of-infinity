@@ -1,17 +1,20 @@
-import React, {useMemo, useRef, useState} from 'react'
+import React, {useEffect, useMemo, useRef, useState} from 'react'
 import {Note} from 'app/models/note'
 import {
   NoteBrowserItemWidthWithoutCollapsed,
   NotesBrowserItem,
 } from './notes-browser-item'
+import {getNote} from 'app/client/notes-cache'
 
 interface Props {
   initialPath?: string
   initialNotes?: Note[]
 }
 
-export const NotesBrowser: React.FC<Props> = ({initialPath, initialNotes = []}) => {
-  const [notes, setNotes] = useState<Note[]>(initialNotes)
+export const NotesBrowser: React.FC<Props> = ({
+  initialPath = 'index',
+  initialNotes = [],
+}) => {
   const ref = useRef<HTMLDivElement | null>(null)
   const [scrollLeft, setScrollLeft] = useState(0)
   const initialNote = useMemo(
@@ -23,19 +26,20 @@ export const NotesBrowser: React.FC<Props> = ({initialPath, initialNotes = []}) 
     throw new Error(`No note found for path: ${initialPath}`)
   }
 
-  const [viewNotes, setViewNotes] = useState([initialNote])
+  const [viewNotes, setViewNotes] = useState<Note[]>([initialNote])
 
-  const onClickBacklink = (event: React.MouseEvent, path: string, index: number) => {
+  const onClickBacklink = async (
+    event: React.MouseEvent,
+    path: string,
+    index: number,
+  ) => {
     event.preventDefault()
 
-    const appendNote = notes.find((note) => note.path === path)
-
-    // TODO search cache
+    const appendNote = await getNote(path)
 
     if (appendNote && !viewNotes.includes(appendNote)) {
       const newNotes = [...viewNotes.slice(0, index + 1), appendNote]
       setViewNotes(newNotes)
-      setTimeout(() => scrollToIndex(index), 1)
     }
   }
 
@@ -44,12 +48,16 @@ export const NotesBrowser: React.FC<Props> = ({initialPath, initialNotes = []}) 
   }
 
   const scrollToIndex = (index: number) => {
-    ref.current?.children[index].scrollIntoView?.({
+    ref.current?.children[index]?.scrollIntoView?.({
       block: 'start',
       inline: 'start',
       behavior: 'smooth',
     })
   }
+
+  useEffect(() => {
+    scrollToIndex(viewNotes.length - 1)
+  }, [viewNotes])
 
   return (
     <div
