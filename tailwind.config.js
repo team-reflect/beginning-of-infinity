@@ -8,13 +8,20 @@ module.exports = {
         'left-xl': '-20px 0px 25px -5px rgb(0 0 0 / 0.05)',
       },
 
-      typography: {
+      typography: ({theme}) => ({
         DEFAULT: {
           css: {
             h1: {
               fontSize: '1.4rem',
               fontWeight: 500,
             },
+
+            hr: {
+              margin: '1.5rem 0',
+            },
+
+            '--tw-prose-hr': theme('colors.gray[100]'),
+            '--tw-prose-links': theme('colors.gray[600]'),
           },
         },
 
@@ -26,7 +33,7 @@ module.exports = {
             },
           },
         },
-      },
+      }),
     },
   },
   plugins: [

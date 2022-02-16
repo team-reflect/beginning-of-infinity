@@ -57,6 +57,12 @@ const tokenToElement = (token: marked.Tokens.Generic, options: MarkdownOptions) 
       return textTokenToElement(token as marked.Tokens.Text, options)
     case 'paragraph':
       return <p>{tokensToElements(token.tokens || [], options)}</p>
+    case 'link':
+      return (
+        <a href={token.href} target="_blank">
+          {tokensToElements(token.tokens || [], options)}
+        </a>
+      )
     case 'backlink':
       return (
         <NoteBacklink
@@ -78,7 +84,10 @@ const tokenToElement = (token: marked.Tokens.Generic, options: MarkdownOptions) 
       )
     case 'list_item':
       return <li>{tokensToElements(token.tokens || [], options)}</li>
+    case 'space':
+      return <></>
     default:
+      console.error('Unknown token type:', token.type)
       return <></>
   }
 }

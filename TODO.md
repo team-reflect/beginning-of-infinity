@@ -1,0 +1,5 @@
+- Mobile view
+- Finish docs
+- README
+- OS
+- About page
