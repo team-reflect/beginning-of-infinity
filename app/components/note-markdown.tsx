@@ -41,12 +41,20 @@ const tokensToElements = (tokens: marked.Tokens.Generic[], options: MarkdownOpti
   )
 }
 
+const textTokenToElement = (token: marked.Tokens.Text, options: MarkdownOptions) => {
+  if (token.tokens?.length) {
+    return <span>{tokensToElements(token.tokens, options)}</span>
+  } else {
+    return <span dangerouslySetInnerHTML={{__html: token.text}} />
+  }
+}
+
 const tokenToElement = (token: marked.Tokens.Generic, options: MarkdownOptions) => {
   switch (token.type) {
     case 'heading':
       return React.createElement('h' + token.depth, {}, token.text)
     case 'text':
-      return <span dangerouslySetInnerHTML={{__html: token.text}} />
+      return textTokenToElement(token as marked.Tokens.Text, options)
     case 'paragraph':
       return <p>{tokensToElements(token.tokens || [], options)}</p>
     case 'backlink':
@@ -64,11 +72,11 @@ const tokenToElement = (token: marked.Tokens.Generic, options: MarkdownOptions) 
       return <hr />
     case 'list':
       return token.ordered ? (
-        <ol>{tokensToElements(token.tokens || [], options)}</ol>
+        <ol>{tokensToElements(token.items || [], options)}</ol>
       ) : (
-        <ul>{tokensToElements(token.tokens || [], options)}</ul>
+        <ul>{tokensToElements(token.items || [], options)}</ul>
       )
-    case 'listitem':
+    case 'list_item':
       return <li>{tokensToElements(token.tokens || [], options)}</li>
     default:
       return <></>

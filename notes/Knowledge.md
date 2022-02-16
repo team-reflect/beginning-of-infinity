@@ -1,8 +1,8 @@
-      
+# Knowledge      
 
 Information which when physically embodied in a an environment tends to cause itself to remain so. E.g. through DNA replication, memes, writing, hard disks.
 
-There are only two known sources of [[Knowledge]] creation. Evolution and our minds.
+There are only two known sources of knowledge creation. Evolution and our minds.
 
 - [[Evolution]]
 - [[Memes]]
