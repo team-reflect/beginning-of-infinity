@@ -1,7 +1,15 @@
-      
+# Neo-Darwinism
 
-Darwin’s theory of evolution (survival of the fittest isn’t exactly accurate). It’s actually about propagation of genes. There are scenarios where living things can evolve in a way that suits propogation of their genes but is detrimental to the species.
+The central idea of neo-Darwinism is that evolution favors the genes that spread best through the population. 
 
-      
+A common misconception about Darwinian [[Evolution]] is that it maximizes ‘the good of the species’. In reality evolution promotes the propagation of individual genes (sometimes to the detriment of the species). 
 
-Dawkins named his tour-de-force account of neo-Darwinism The Selfish Gene because he wanted to stress that evolution does not especially promote the ‘welfare’ of species or individual organisms. But, as he also explained, it does not promote the ‘welfare’ of genes either: it adapts them not for survival in larger numbers, nor indeed for survival at all, but only for spreading through the population at the expense of rival genes, particularly slight variants of themselves. Organisms are the slaves, or tools, that genes use to achieve their ‘purpose’ of spreading themselves through the population.
+Evolution does not especially promote the ‘welfare’ of species or individual organisms. It does not promote the ‘welfare’ of genes either: it adapts them not for survival in larger numbers, nor indeed for survival at all, but only for spreading through the population at the expense of rival genes, particularly slight variants of themselves. 
+
+Organisms are the slaves, or tools, that genes use to achieve their ‘purpose’ of spreading themselves through the population.
+
+So, while evolution explains biological progress not all evolution constitutes progress, and no (genetic) evolution optimizes progress.
+
+See more:
+
+- [The Selfish Gene](https://en.wikipedia.org/wiki/The_Selfish_Gene)
