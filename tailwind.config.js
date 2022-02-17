@@ -16,6 +16,11 @@ module.exports = {
               fontWeight: 500,
             },
 
+            h2: {
+              fontSize: '1.1rem',
+              fontWeight: 500,
+            },
+
             hr: {
               margin: '1.5rem 0',
             },

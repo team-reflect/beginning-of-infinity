@@ -16,11 +16,11 @@ The [[Enlightenment]] showed us progress is both achievable and desirable. It in
 
 [[Science]] is the practice of finding good [[Explanation]]s, statements about what is there, what it does, and how and why. [[Morality]] is about the problem of what to do next and, more generally, what sort of life to lead, and what sort of world to want. Both are explanatory, rational, and objective.
 
-[[Good Explanation]]s objectively differ from [[Bad Explanation]]s. TODO hard to vary. Explanations are inheritently error prone (see [[Fallibilism]]) which is why we need [[Criticism]] and [[Error Correction]]. Explanations can have unbounded [[Reach]] (i.e. apply to solve unforeseen problems).
+[[Good Explanation]]s objectively differ from [[Bad Explanation]]s because they are [[Hard to vary]]. Explanations are inherently error prone (see [[Fallibilism]]) which is why we need [[Criticism]] and [[Error Correction]]. Explanations can have unbounded [[Reach]] (i.e. apply to solve unforeseen problems).
 
 Once those explanations are recorded somewhere, (such as on papyrus scrolls, DNA strands, hard-disks) they become [[Knowledge]]. There are only two known processes of creating [[Knowledge]]: thoughts of [[People]] and biological [[Evolution]]. They have some key differences (e.g. speed of replication, iteration, and progress).
 
-[[Explanation]]s are a form of information, and information can only be processed in basically one way, with [[Universal Computation]] of the kind invented by Babbage and Turing. TODO - need to explain why this is true ie: can only be
+[[Explanation]]s are a form of information, and information can only be processed in basically one way, with [[Universal Computation]] of the kind invented by Babbage and Turing.
 
 All [[Problems]] can be solved with the right [[Explanation]]s limited only by the laws of nature. However the search for [[Explanation]]s will create new problems. Hence problems are inevitable.
 
