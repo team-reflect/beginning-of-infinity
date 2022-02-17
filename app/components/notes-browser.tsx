@@ -5,14 +5,11 @@ import {
   NotesBrowserItem,
 } from './notes-browser-item'
 import {getNote} from 'app/client/notes-cache'
-import {useRouter} from 'next/router'
-
 interface Props {
   initialNotes?: Note[]
 }
 
 export const NotesBrowser: React.FC<Props> = ({initialNotes = []}) => {
-  const router = useRouter()
   const ref = useRef<HTMLDivElement | null>(null)
   const [scrollLeft, setScrollLeft] = useState(0)
 
@@ -72,7 +69,7 @@ export const NotesBrowser: React.FC<Props> = ({initialNotes = []}) => {
   return (
     <div
       ref={ref}
-      className="flex-1 flex overflow-x-auto overflow-y-hidden"
+      className="browser flex-1 flex overflow-x-auto overflow-y-hidden"
       onScroll={onScroll}
     >
       {viewNotes.map((note, index) => (

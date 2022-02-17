@@ -14,7 +14,7 @@ export const NoteLinks: React.FC<Props> = ({note, onClickBacklink}) => {
     <div className="bg-gray-100 rounded-md px-6 py-5">
       <h3 className="text-gray-600 text-lg font-medium">Links to this note</h3>
 
-      <div className="grid grid-cols-2 gap-5 mt-3">
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-5 mt-3">
         {note.linkedFromNotes.map((note) => (
           <div
             key={note.path}

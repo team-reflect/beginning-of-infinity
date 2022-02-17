@@ -1,6 +1,6 @@
 import {Header} from 'app/components/header'
 import {Layout} from 'app/components/layout'
-import {NotesBrowser} from 'app/components/notes-browser'
+import {Notes} from 'app/components/notes'
 import {castArray} from 'app/helpers/array'
 import {Note} from 'app/interfaces/note'
 import type {GetServerSideProps, NextPage} from 'next'
@@ -21,7 +21,7 @@ const NotesShow: NextPage<{initialNotes: Note[]}> = ({initialNotes}) => {
   return (
     <Layout>
       <Header />
-      <NotesBrowser initialNotes={initialNotes} />
+      <Notes initialNotes={initialNotes} />
     </Layout>
   )
 }
