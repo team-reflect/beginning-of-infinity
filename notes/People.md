@@ -1,6 +1,7 @@
 # People      
 
-An entity that can create explanatory knowledge.
+Entities that can create explanatory knowledge.
 
-- [[Universal Systems]] explainers. 
-- Could be us, aliens, an AI. We all have this in common.
+People don't necessary need to be human. The term also  encompasses creative aliens and in the future, artificial general intelligence.
+
+People are a form of a [[Universal Explainers]].
