@@ -32,7 +32,7 @@ Both the [[Principle of Mediocrity]] (we are nothing special in this universe) a
 
 Biological [[Evolution]] was a precursor to the main story of evolution, the unbounded evolution of [[Memes]]: ideas that cause themselves to replicate (aka [[Replicators]]). In many ways memes are analogous to genes, but there are also profound differences in the way they evolve. A collection of [[Memes]] forms a [[Culture]].
 
-Think of [[Memes]] as any ideas that are passed between lots of people. For example, a language, scientific theory, or religious belief are all memes. Memes have to be actively replicated to survive (i.e. spoken or written and distributed). A [[Rational Meme]] is a [[Good Explanation]] that relies on the recipient's critical faculties to cause itself to be replicated. An [[Anti-rational Meme]] is a [[Bad Explanation]] and invariably relies on hijacking base emotions for replication ( tapping into fear or anger).
+Think of [[Memes]] as any ideas that are passed between lots of people. For example, a language, scientific theory, or religious belief are all memes. Memes have to be actively replicated to survive (i.e. spoken or written and distributed). A [[Rational Meme]] is a [[Good Explanation]] that relies on the recipient's critical faculties to cause itself to be replicated. An [[Anti-rational Meme]] is a [[Bad Explanation]] and invariably relies on hijacking base emotions for replication (tapping into fear or anger).
 
 Deustsch defines [[Optimism]] as the theory that all failures are due to lack of [[Knowledge]]. That doesn't mean proceeding as if there won't be bad outcomes (since problems are inevitable) - he calls that [[Blind Optimism]]. In contrast [[Blind Pessimism]] is avoiding everything not known to be safe.
 

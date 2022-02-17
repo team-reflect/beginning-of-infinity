@@ -1,10 +1,12 @@
-Morality is objective 
-type of knowledge
-
-      
-
+# Morality
 Moral philosophy is basically about the problem of what to do next–and, more generally, what sort of life to lead, and what sort of world to want.
 
-Moral truths are objective. They can be discovered by the usual methods of reason, which are essentially the same as those of science (although there are important differences).
+Morality is a type of [[Knowledge]]. This means that moral 'truths' can be discovered by the usual methods of reason, which are essentially the same as those of science (although there are important differences).
 
-Science and morality are based on reason. So if you adopt a rational attitude toward morality, and therefore say that morality consists of moral knowledge—and knowledge always consists of conjectures, doesn't need a basis, only needs modes of criticism; and those modes of criticism operate by criteria that are themselves subject to modes of criticism—then you come to a transcendent moral truth. If all knowledge is conjectural and subject to improvement, then protecting the means of improving knowledge is more important than any particular piece of knowledge.
+Because morality is a type of [[Knowledge]] this means that it is also [[Fallible]] and can only improve over time through [[Conjecture]] and [[Criticism]]. As knowledge, morality cannot be sourced from a source of authority (e.g. governments, social-movements, religions).
+
+Morality iterates and improves over time. So, given that, there is only one transcendent morality: protect the means of improving knowledge. In other words maintaining a culture where people are free to conjecture and criticize each other ideas is the most important moral decree. 
+
+See also:
+- [[Static Societies]]
+- [[Dynamic Societies]]
