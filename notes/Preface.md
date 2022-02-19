@@ -4,7 +4,7 @@ title: The Beginning of Infinity
 
 The [[Beginning of Infinity]] contains a hopeful message for humanity. [[David Deutsch]] describes the process through which our species has emerged from a dirt-scratching purgatory to today's towering technological heights. 
 
-If we choose, no problem is beyond us. With the right [[Knowledge]] we can have a cosmically-sized impact upon our universe. We are limited solely by the laws of nature. We are but at the start of a road to infinity. 
+Deutsche shows that, if we choose, no problem is beyond us. With the right [[Knowledge]] we can have a cosmically-sized impact upon our universe. We are limited solely by the laws of nature. We are but at the start of a road to infinity. 
 
 These are some short cliff-notes on the book, but we encourage you to [buy and read the real thing](https://www.amazon.com/Beginning-Infinity-Explanations-Transform-World/dp/0143121359).
 
@@ -17,6 +17,8 @@ The [[Enlightenment]] showed us progress is both achievable and desirable. It in
 [[Science]] is the practice of finding good [[Explanation]]s, statements about what is there, what it does, and how and why. [[Morality]] is about the problem of what to do next and, more generally, what sort of life to lead, and what sort of world to want. Both are explanatory, rational, and objective.
 
 [[Good Explanation]]s objectively differ from [[Bad Explanation]]s because they are [[Hard to vary]]. Explanations are inherently error prone (see [[Fallibilism]]) which is why we need [[Criticism]] and [[Error Correction]]. Explanations can have unbounded [[Reach]] (i.e. apply to solve unforeseen problems).
+
+TODO - universality 
 
 Once those explanations are recorded somewhere, (such as on papyrus scrolls, DNA strands, hard-disks) they become [[Knowledge]]. There are only two known processes of creating [[Knowledge]]: thoughts of [[People]] and biological [[Evolution]]. They have some key differences (e.g. speed of replication, iteration, and progress).
 
