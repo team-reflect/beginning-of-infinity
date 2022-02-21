@@ -67,9 +67,7 @@ export const NotePreviewPopover: React.FC<Props> = ({
           style={{left, top, width, height}}
         >
           {note && (
-            <>
-              <NoteMarkdown markdown={truncate(note.snippet, {length: 390})} size="sm" />
-            </>
+            <NoteMarkdown markdown={truncate(note.snippet, {length: 390})} size="sm" />
           )}
         </div>
       </Transition>

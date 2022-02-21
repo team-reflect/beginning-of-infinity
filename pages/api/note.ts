@@ -21,7 +21,7 @@ export default async function handler(
   const note = await getNote(path)
 
   if (note) {
-    res.setHeader('Cache-Control', `s-maxage=${86400 * 29}`)
+    res.setHeader('Cache-Control', `max-age=0, s-maxage=${86400}`)
 
     res.status(200).json(note)
   } else {
