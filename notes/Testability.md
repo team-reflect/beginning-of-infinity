@@ -1,0 +1,4 @@
+# Testability
+
+Testability is now generally accepted as the defining characteristic of the scientific method. Popper called it the ‘criterion of demarcation’ between science and non-science. Nevertheless, testability cannot have been the decisive factor in the scientific revolution either. Contrary to what is often said, testable predictions had always been quite common. Every traditional rule of thumb for making a flint blade or a camp fire is testable. Every would-be prophet who claims that the sun will go out next Tuesday has a testable theory. So does every gambler who has a hunch that ‘this is my lucky night – I can feel it’. So what is the vital, progress-enabling ingredient that is present in science, but absent from the testable theories of the prophet and the gambler? The reason that testability is not enough is that prediction is not, and cannot be, the purpose of science.
+
