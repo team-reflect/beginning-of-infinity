@@ -2,9 +2,9 @@
 title: The Beginning of Infinity
 ---
 
-The [[Beginning of Infinity]] contains an incredibly optimistic message for humanity. [[David Deutsch]] describes the process through which our species has emerged from a dirt-scratching purgatory to today's towering technological heights. And how, in the future, we have the potential to achieve our wildest dreams. 
+The [[Beginning of Infinity]] contains an incredibly optimistic message for humanity. [[David Deutsch]] describes the process through which our species has emerged from a dirt-scratching purgatory to today's towering technological heights. And how, in the future, we have the potential to achieve our wildest possible dreams. 
 
-Deutsche shows that, if we choose, no problem is beyond us. With the right [[Knowledge]] humanity can have a cosmically-sized impact upon our universe. We are limited solely by the laws of nature. Our progress is but at the start of a road to infinity. 
+Deutsche shows that, if we choose, no problem is beyond us. With the right [[Knowledge]] humanity can have a cosmically-sized impact upon our universe. We can solve all of our problems from hunger, to global-warming, to disease, to interstellar travel. We are limited solely by the laws of nature. Our progress is but at the start of a road to infinity. 
 
 These are some notes on the book, but we encourage you to [read the real thing](https://www.amazon.com/Beginning-Infinity-Explanations-Transform-World/dp/0143121359).
 
