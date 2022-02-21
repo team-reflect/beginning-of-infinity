@@ -5,6 +5,7 @@ Computers and brains are universal.
 A universal system - capable of representing all states. Universal systems have been invented a few times throughout history but always by accident. Nobody realized their significance until decades, sometimes centuries later.
 
 
+and there is no more reason to expect the brain to be a computer than a steam engine. But there is. A steam engine is not a universal simulator. But a computer is, so expecting it to be able to do whatever neurons can is not a metaphor: it is a known and proven property of the laws of physics as best we know them.
       
 
 None universal systems:

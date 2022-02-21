@@ -37,7 +37,9 @@ const markdownToSnippet = (markdown: string): string => {
   return markdown
     .replace(/^#.+/g, '')
     .split('\n')
-    .filter((l) => l.trim())[0]
+    .filter((l) => l.trim())
+    .slice(0, 2)
+    .join(' ')
 }
 
 const noteToNotePreview = (note: Note): NotePreview => {

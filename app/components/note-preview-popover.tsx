@@ -5,6 +5,7 @@ import {calculateBestPosition} from 'calculate-position'
 import React, {useEffect, useState} from 'react'
 import {NoteMarkdown} from './note-markdown'
 import {PortalBody} from './portal-body'
+import truncate from 'lodash/truncate'
 
 export interface Props {
   path: string
@@ -67,7 +68,7 @@ export const NotePreviewPopover: React.FC<Props> = ({
         >
           {note && (
             <>
-              <NoteMarkdown markdown={note.snippet} size="sm" />
+              <NoteMarkdown markdown={truncate(note.snippet, {length: 390})} size="sm" />
             </>
           )}
         </div>

@@ -16,15 +16,13 @@ The [[Enlightenment]] showed us progress is both achievable and desirable. It in
 
 [[Science]] is the practice of finding good [[Explanation]]s, statements about what is there, what it does, and how and why. [[Morality]] is about the problem of what to do next and, more generally, what sort of life to lead, and what sort of world to want. Both are explanatory, rational, and objective.
 
-There are lots of misconceptions about where scientific theories are derived from. A popular one is [[Empiricism]], that we derive theories from our senses. Another one is [[Inductivism]] (the future will resemble the past). [[Testability]] is also generally accepted as a defining characteristic of the scientific method. All are misconceptions, there are many examples of valid theories that violate each of them. In reality theories are born from [[Conjecture]] and honed through [[Criticism]]. Not all theories can be tested. Instead, they can only be evaluated by whether or not they're [[Good Explanation]]s.
+There are lots of misconceptions about where scientific theories are derived from. A popular one is [[Empiricism]], that we derive theories from our senses. Another one is [[Inductivism]] (the future will resemble the past). [[Testability]] is also generally accepted as a defining characteristic of the scientific method. All are misconceptions. There are many examples of valid theories that violate each of them. In reality theories are born from [[Conjecture]] and honed through [[Criticism]]. And not all theories can be tested. Instead, they can only be evaluated by whether or not they're [[Good Explanation]]s.
 
 [[Good Explanation]]s objectively differ from [[Bad Explanation]]s because they are [[Hard to vary]]. Explanations are inherently error prone (see [[Fallibilism]]) which is why we need [[Criticism]] and [[Error Correction]]. Explanations can have unbounded [[Reach]] (i.e. apply to solve unforeseen problems).
 
 TODO - [[Universality]]
 
-All [[Problems]] can be solved with the right [[Explanation]]s limited only by the laws of nature. However the search for [[Explanation]]s will create new problems. Hence problems are inevitable.
-
-Once those explanations are recorded somewhere, (such as on papyrus scrolls, DNA strands, hard-disks) they become [[Knowledge]]. There are only two known processes of creating [[Knowledge]]: thoughts of [[People]] and biological [[Evolution]]. They have some key differences (e.g. speed of replication, iteration, and progress).
+All [[Problems]] can be solved with the right explanations limited only by the laws of nature. However the search for [[Explanation]]s will create new problems. Hence problems are inevitable.
 
 Once those explanations are recorded somewhere they become [[Knowledge]]. For billions of years [[Knowledge Creation]] was limited to our biological [[Evolution]], slow and random changes over time inscribed in our DNA. Then 7000 years ago we invented language, 5000 years ago writing, 582 years ago printing-presses, and very recently computers and hard-drives. Each stage has been a step change up in the rate of knowledge creation, especially the jump from biological evolution to the thoughts of [[People]]. 
 
