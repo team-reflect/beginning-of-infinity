@@ -2,7 +2,7 @@
 title: The Beginning of Infinity
 ---
 
-The [[Beginning of Infinity]] contains an incredibly optimistic message for humanity. [[David Deutsch]] describes the process through which our species has emerged from a dirt-scratching purgatory to today's towering technological heights. And how, in the future, we have the potential to achieve our wildest possible dreams. 
+The [[Beginning of Infinity]] contains an incredibly optimistic message for humanity. Author [[David Deutsch]] describes the process through which our species has emerged from a dirt-scratching purgatory to today's towering technological heights. And how, in the future, we have the potential to achieve our wildest possible dreams. 
 
 Deutsche shows that, if we choose, no problem is beyond us. With the right [[Knowledge]] humanity can have a cosmically-sized impact upon our universe. We can solve all of our problems from hunger, to global-warming, to disease, to interstellar travel. We are limited solely by the laws of nature. Our progress is but at the start of a road to infinity. 
 
@@ -16,7 +16,7 @@ The [[Enlightenment]] showed us progress is both achievable and desirable. It in
 
 [[Science]] is the practice of finding good [[Explanation]]s, statements about what is there, what it does, and how and why. [[Morality]] is about the problem of what to do next and, more generally, what sort of life to lead, and what sort of world to want. Both disciplines are explanatory, rational, and objective.
 
-There are many misconceptions about where scientific theories are derived from. One popular one is [[Empiricism]], that we derive theories from our senses. Another is [[Inductivism]], that the future will resemble the past. [[Testability]] is also generally accepted as a defining characteristic of the scientific method. All of these are misconceptions since there are many examples of valid theories that violate them. In reality, theories are a type of knowledge and thus born from [[Conjecture]] and honed through [[Criticism]]. Not all theories can be tested. Instead, they can only be evaluated by whether or not they're [[Good Explanation]]s.
+There are many misconceptions about where scientific theories are derived from. One popular one is [[Empiricism]], that we derive theories from our senses. Another is [[Inductivism]], that the future will resemble the past. [[Testability]] is also generally accepted as a defining characteristic of the scientific method. All of these are wrong--there are many examples of valid theories that violate them. In reality, theories are a form of knowledge and thus born from [[Conjecture]] and honed through [[Criticism]]. Not all theories can be tested. Instead, they can only be evaluated by whether or not they're [[Good Explanation]]s.
 
 [[Good Explanation]]s objectively differ from [[Bad Explanation]]s because they are [[Hard to vary]]. Explanations are inherently error prone (see [[Fallibilism]]) which is why we need [[Criticism]] and [[Error Correction]]. Explanations can have unbounded [[Reach]] (i.e. apply to solve unforeseen problems).
 
@@ -24,7 +24,7 @@ TODO - [[Universality]]
 
 All [[Problems]] can be solved with the right explanations limited only by the laws of nature. However the search for [[Explanation]]s will create new problems. Hence problems are inevitable.
 
-Once those explanations are recorded somewhere they become [[Knowledge]]. For billions of years [[Knowledge Creation]] was limited to our biological [[Evolution]], slow and random changes over time inscribed in our DNA. Then 7000 years ago we invented language, 5000 years ago writing, 582 years ago printing-presses, and very recently computers and hard-drives. Each stage has been a step change up in the rate of knowledge creation, especially the jump from biological evolution to the thoughts of [[People]]. 
+Once those explanations are recorded somewhere they become [[Knowledge]]. For billions of years [[Knowledge Creation]] was limited to our biological [[Evolution]], slow and random changes over time inscribed in our DNA. Then 7,000 years ago we invented language, 5,000 years ago writing, 582 years ago printing-presses, and very recently computers and hard-drives. Each stage has been a step change up in the rate of knowledge creation, especially the jump from biological evolution to the thoughts of [[People]]. 
 
 [[Explanation]]s are a form of information, and information can only be processed in basically one way, with [[Universal Computation]] of the kind invented by Babbage and Turing.
 
@@ -46,6 +46,6 @@ There are no mathematically provably fair forms of [[Governing]] and therefore t
 
 Humanity was never sustainable. It is a myth that there ever was a time of tranquility where we lived peacefully at one with nature and each other. Human existence was absolutely brutal until very recently. And eventually, unless we choose otherwise, we will be wiped out by an extinction event. Only in creating the right [[Knowledge]] can we be saved.
 
-We should not use (the semblance of) [[Sustainability]] as an aspiration or a constraint on planning. For example, we shouldn't just try and solve the 'human' part of global warming. If the earth goes into a new ice-age, or warms dangerously, we should solve that regardless of how much of it is man-made or not.
+We should not use (the semblance of) [[Sustainability]] as an aspiration or a constraint on planning. For example, we shouldn't just try and solve the 'human' part of global warming. If the earth goes into a new ice-age, or warms dangerously, we should solve that regardless of how much of the problem is man-made or not.
 
 Since all problems can be solved with the right [[Knowledge]] and we humans, as [[Universal Explainers]], have the potential to obtain any knowledge, we can have a cosmically sized impact upon the universe. Not only can we survive, but we can explore, learn, and thrive throughout our galaxy and more. If we so choose.
