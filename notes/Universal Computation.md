@@ -11,4 +11,4 @@ We've been improving our memory capacity and our speed of computation for thousa
 
 --- 
 TODO
-The existence of [[Universal Systems]] in many fields. Badly understood pre-Enlightenment and created accidentally (and not used appropriately). Our genetic code took a mysterious jump to [[Universal Systems]].
+The existence of [[Universal System]] in many fields. Badly understood pre-Enlightenment and created accidentally (and not used appropriately). Our genetic code took a mysterious jump to [[Universal System]].

@@ -20,13 +20,15 @@ There are many misconceptions about where scientific theories are derived from. 
 
 [[Good Explanation]]s objectively differ from [[Bad Explanation]]s because they are [[Hard to vary]]. Explanations are inherently error prone (see [[Fallibilism]]) which is why we need [[Criticism]] and [[Error Correction]]. Explanations can have unbounded [[Reach]] (i.e. apply to solve unforeseen problems).
 
-TODO - [[Universality]]
-
 All [[Problems]] can be solved with the right explanations limited only by the laws of nature. However the search for [[Explanation]]s will create new problems. Hence problems are inevitable.
 
 Once those explanations are recorded somewhere they become [[Knowledge]]. For billions of years [[Knowledge Creation]] was limited to our biological [[Evolution]], slow and random changes over time inscribed in our DNA. Then 7,000 years ago we invented language, 5,000 years ago writing, 582 years ago printing-presses, and very recently computers and hard-drives. Each stage has been a step change up in the rate of knowledge creation, especially the jump from biological evolution to the thoughts of [[People]]. 
 
 [[Explanation]]s are a form of information, and information can only be processed in basically one way, with [[Universal Computation]] of the kind invented by Babbage and Turing.
+
+A [[Universal System]] is one capable of representing all states. Our DNA was the first known universal system. With a combination of 'A', 'T', 'G', and 'C' you can encode a chicken or a T-Rex. Jumps from non-universal to universal systems are the milestones on the road of human progress. For example moving from hieroglyphics to the alphabet, or from tally systems to the Indian numeric system. In each case we upgraded from an inefficient and unscalable system, where each step was customized, to an efficient scalable universal system, leapfrogging human progress. 
+
+Universal Systems have [[Reach]], unintended potential. For example the computer in your washing machine could, given enough memory and time, do astrophysics calculations. Oddly most jumps to [[Universality]] have been accidents. Only since the [[Enlightenment]] has their significance been understood and sort after.
 
 Both the [[Principle of Mediocrity]] (we are nothing special in this universe) and [[Spaceship Earth]] (Earth provides the ideal environment for us) are mistaken. Earth no more provides us with a life-support system than it supplies us with radio telescopes. And [[People]], as [[Universal Explainers]], can have a cosmically sized impact upon the universe.
 
@@ -44,7 +46,7 @@ Deustsch defines [[Optimism]] as the theory that all failures are due to lack of
 
 There are no mathematically provably fair forms of [[Governing]] and therefore the most important aspect to get right is to be able to remove leaders (see [[Criticism]] and [[Error Correction]]) when necessary.
 
-Humanity was never sustainable. It is a myth that there ever was a time of tranquility where we lived peacefully at one with nature and each other. Human existence was absolutely brutal until very recently. And eventually, unless we choose otherwise, we will be wiped out by an extinction event. Only in creating the right [[Knowledge]] can we be saved.
+Humanity was never sustainable. It is a myth that there ever was a time of tranquility where we lived peacefully at one with nature and each other. Existence was absolutely brutal until very recently. And eventually, unless we choose otherwise, we will be wiped out by an extinction event. Only in creating the right [[Knowledge]] can we be saved.
 
 We should not use (the semblance of) [[Sustainability]] as an aspiration or a constraint on planning. For example, we shouldn't just try and solve the 'human' part of global warming. If the earth goes into a new ice-age, or warms dangerously, we should solve that regardless of how much of the problem is man-made or not.
 
