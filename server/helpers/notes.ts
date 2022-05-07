@@ -1,7 +1,7 @@
 import fs from 'fs/promises'
 import path from 'path'
 import parseFrontMatter from 'front-matter'
-import {Note, NotePreview} from 'app/interfaces/note'
+import {Note, NotePreview, NOTE_INDEX_NAME} from 'app/interfaces/note'
 
 const notesPath = path.join(process.cwd(), 'notes')
 
@@ -15,7 +15,7 @@ export const getNotes = async () => {
   return Promise.all(noteNames.map((name) => readNote(name)))
 }
 
-const readNote = async (name: string) => {
+const readNote = async (name: string): Promise<Note> => {
   const escapedName = name.replace(/[^A-Za-z0-9\s_\-/]/g, '')
 
   const file = await fs.readFile(path.join(notesPath, escapedName + '.md'), 'utf8')
@@ -30,7 +30,8 @@ const readNote = async (name: string) => {
     title: attributes?.title || name,
     snippet: attributes?.snippet || markdownToSnippet(body),
     markdown: body,
-  } as Note
+    linkedFromNotes: [],
+  }
 }
 
 const markdownToSnippet = (markdown: string): string => {
@@ -50,14 +51,14 @@ const noteToNotePreview = (note: Note): NotePreview => {
   }
 }
 
-export const getHydratedNote = async (name: string) => {
+export const getHydratedNote = async (name: string): Promise<Note | null> => {
   const allNotes = await getNotes()
   const note = allNotes.find((n) => n.path === name)
 
   if (!note) return null
 
   const linkedFromNotes = allNotes
-    .filter((n) => n != note)
+    .filter((n) => n != note && n.path != NOTE_INDEX_NAME)
     .filter((n) => n.markdown.includes(`[[${name}]]`))
     .map(noteToNotePreview)
 
@@ -67,7 +68,7 @@ export const getHydratedNote = async (name: string) => {
   }
 }
 
-export const getNote = async (name: string) => {
+export const getNote = async (name: string): Promise<Note | null> => {
   try {
     return await readNote(name)
   } catch (error) {

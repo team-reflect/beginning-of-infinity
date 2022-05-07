@@ -10,3 +10,5 @@ export interface Note {
   markdown: string
   linkedFromNotes: NotePreview[]
 }
+
+export const NOTE_INDEX_NAME = 'Preface'

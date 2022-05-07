@@ -1,3 +1,7 @@
-      
+# Empiricism      
 
-Empiricism: I have said that empiricism initially played a positive role in the history of ideas by providing a defence against traditional authorities and dogma, and by attributing a central role–albeit the wrong one–to experiment in science. At first, the fact that empiricism is an impossible account of how science works did almost no harm, because no one took it literally. Whatever scientists may have said about where their discoveries came from, they eagerly addressed interesting problems, conjectured good explanations, tested them, and only lastly claimed to have induced the explanations from experiment. The bottom line was that they succeeded: they made progress. Nothing prevented that harmless (self-) deception, and nothing was inferred from it.
+Empiricism initially played a positive role in the history of ideas by providing a defence against traditional authorities and dogma, and by attributing a central role–albeit the wrong one–to experiment in science. 
+
+At first, the fact that empiricism is an impossible account of how science works did almost no harm, because no one took it literally. Whatever scientists may have said about where their discoveries came from, they eagerly addressed interesting problems, conjectured good explanations, tested them, and only lastly claimed to have induced the explanations from experiment. The bottom line was that they succeeded: they made progress. Nothing prevented that harmless (self-) deception, and nothing was inferred from it.
+
+TODO - explain the issue with empiricism.

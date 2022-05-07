@@ -1,12 +1,12 @@
 import {Header} from 'app/components/header'
 import {Layout} from 'app/components/layout'
 import {Notes} from 'app/components/notes'
-import {Note} from 'app/interfaces/note'
+import {Note, NOTE_INDEX_NAME} from 'app/interfaces/note'
 import type {GetStaticProps, NextPage} from 'next'
 import {getNote} from 'server/helpers/notes'
 
 export const getStaticProps: GetStaticProps = async (context) => {
-  const notes = [await getNote('Preface')]
+  const notes = [await getNote(NOTE_INDEX_NAME)]
 
   return {
     props: {notes},
