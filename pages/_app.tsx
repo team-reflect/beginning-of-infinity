@@ -7,6 +7,15 @@ function MyApp({Component, pageProps}: AppProps) {
     <>
       <Head>
         <title>The Beginning of Infinity</title>
+
+        <meta name="description" content="All failures are due to lack of knowledge." />
+        <meta
+          name="og:description"
+          content="All failures are due to lack of knowledge."
+        />
+        <meta name="og:title" content="The Beginning of Infinity" />
+        <meta name="og:url" content="https://thebeginningofinfinity.xyz" />
+        <meta name="apple-mobile-web-app-title" content="The Beginning of Infinity" />
       </Head>
       <Component {...pageProps} />
     </>

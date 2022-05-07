@@ -1,6 +1,8 @@
-This is the website behind [thebeginningofinfinity.xyz](thebeginningofinfinity.xyz)
+# The Beginning of Infinity
 
-# About
+This is the source-code powering [thebeginningofinfinity.xyz](thebeginningofinfinity.xyz)
+
+# The book
 
 We believe the [Beginning of Infinity](https://www.amazon.com/Beginning-Infinity-Explanations-Transform-World/dp/0143121359) to be one of the most important books ever written. However, it's quite dense and can be a tough read for the layman. We created this website in order to share our high level notes, spread David's ideas, and encourage more people to read his book.
 
@@ -12,7 +14,9 @@ Created by the team behind [Reflect](https://reflect.app), the networked note-ta
 
 ## Getting Started
 
-First, run the development server:
+Clone the repo and install the dependencies.
+
+Then, run the development server:
 
 ```bash
 npm run dev
