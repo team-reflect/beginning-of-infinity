@@ -17,5 +17,4 @@ Therefore systems of government are not to be judged by the quality of their lea
 The only way to remove bad leaders or policies, without using violence, is through cultivating a culture of free-speech and [[Criticism]].
 
 See also: 
-- Arrow’s theorem
-- Game theory
+- [[Arrow's theorem]]
