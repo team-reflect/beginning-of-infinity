@@ -2,7 +2,7 @@
 title: The Beginning of Infinity
 ---
 
-The [[Beginning of Infinity]] contains an inspiring message for humanity. Author [[David Deutsch]] describes the process through which our species has emerged from a dirt-scratching purgatory to today's towering technological heights. And how, in the future, we have the potential to achieve our wildest possible dreams. 
+The [[Beginning of Infinity]] contains an inspiring message for humanity. Author [[David Deutsch]] describes the processes through which our species has emerged from a dirt-scratching purgatory to today's towering technological heights. And how, in the future, we have the potential to achieve our wildest possible dreams. 
 
 Deutsche shows that, if we choose, no problem is beyond us. With the right [[Knowledge]] humanity can have a cosmically-sized impact upon our universe. We can solve all of our problems from hunger, to global-warming, to disease, to interstellar travel. We are limited solely by the laws of nature. Our progress is but at the start of a road to infinity. 
 
@@ -26,7 +26,7 @@ Once those explanations are recorded somewhere they become [[Knowledge]]. For bi
 
 [[Explanation]]s are a form of information, and information can only be processed in basically one way, with [[Universal Computation]] of the kind invented by Babbage and Turing.
 
-A [[Universal System]] is one capable of representing all states. Our DNA was the first known universal system. With a combination of 'A', 'T', 'G', and 'C' you can encode a chicken or a T-Rex. Jumps from non-universal to universal systems are the milestones on the road of human progress. For example moving from hieroglyphics to the alphabet, or from tally systems to the Indian numeral system. In each case we upgraded from an inefficient and unscalable system, where each step was customized, to an efficient scalable universal system, leapfrogging human progress. 
+A [[Universal System]] is one capable of representing all states. Our DNA was the first known universal system. With a combination of ATG and C you can encode a chicken or a T-Rex. Jumps from non-universal to universal systems are the milestones on the road of human progress. For example moving from hieroglyphics to the alphabet, or from tally systems to the Indian numeral system. In each case we upgraded from an inefficient and unscalable system, where each step was customized, to an efficient scalable universal system, leapfrogging human progress. 
 
 Universal Systems have [[Reach]], unintended potential. For example the computer in your washing machine could, given enough memory and time, do astrophysics calculations. Oddly most jumps to [[Universality]] have been accidents. Only since the [[Enlightenment]] has their significance been understood and sought after.
 

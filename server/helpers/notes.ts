@@ -16,7 +16,7 @@ export const getNotes = async () => {
 }
 
 const readNote = async (name: string): Promise<Note> => {
-  const escapedName = name.replace(/[^A-Za-z0-9\s_\-/]/g, '')
+  const escapedName = path.basename(name)
 
   const file = await fs.readFile(path.join(notesPath, escapedName + '.md'), 'utf8')
 
