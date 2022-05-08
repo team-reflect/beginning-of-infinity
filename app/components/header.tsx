@@ -10,7 +10,7 @@ export const Header: React.FC = () => (
     </h1>
 
     <h3 className="md:text-base text-sm font-normal">
-      <Link href="/about">
+      <Link href="/About">
         <a>About these notes</a>
       </Link>
     </h3>
