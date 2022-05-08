@@ -18,9 +18,15 @@ function MyApp({Component, pageProps}: AppProps) {
         <meta name="apple-mobile-web-app-title" content="The Beginning of Infinity" />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content="/twitter-card.png" />
+        <meta
+          name="twitter:image"
+          content="https://thebeginningofinfinity.xyz/twitter-card.png"
+        />
         <meta name="og:title" content="Reflect" />
-        <meta name="og:image" content="/twitter-card.png" />
+        <meta
+          name="og:image"
+          content="https://thebeginningofinfinity.xyz/twitter-card.png"
+        />
       </Head>
       <Component {...pageProps} />
     </>
