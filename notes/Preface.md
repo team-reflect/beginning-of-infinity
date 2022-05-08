@@ -14,7 +14,7 @@ We have made virtually no [[Progress]] over the vast majority of human history. 
 
 The [[Enlightenment]] showed us progress is both achievable and desirable. It instituted a culture of [[Conjecture]] and [[Criticism]], the two key components for any kind of rapid progress across any discipline from [[Science]] to [[Morality]].
 
-[[Science]] is the practice of finding good [[Explanation]]s, statements about what is there, what it does, and how and why. [[Morality]] is about the problem of what to do next and, more generally, what sort of life to lead, and what sort of world to want. Both disciplines are explanatory, rational, and objective.
+[[Science]] is the practice of finding [[Good Explanation]]s, statements about what is there, what it does, and how and why. [[Morality]] is about the problem of what to do next and, more generally, what sort of life to lead, and what sort of world to want. Both disciplines are explanatory, rational, and objective.
 
 There are many misconceptions about where scientific theories are derived from. A popular one is [[Empiricism]], that we derive theories from our senses. Another is [[Inductivism]], that the future will resemble the past. [[Testability]] is also generally accepted as a defining characteristic of the scientific method. All of these are wrong - there are many examples of valid theories that violate them. In reality, theories are a form of knowledge and thus born from [[Conjecture]] and honed through [[Criticism]]. Not all theories can be tested. Instead, they can only be evaluated by whether or not they're [[Good Explanation]]s.
 

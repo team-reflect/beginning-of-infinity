@@ -1,8 +1,9 @@
 # Universal Explainers
 
-TODO
+The only uniquely significant thing about humans vs other animals is our ability to create new explanations. We are universal explainers.
 
-But, of all the different forms of universality, the most significant physically is the characteristic universality of people, namely that they are universal explainers, which makes them universal constructors as well.
+In other words there is no problem that cannot, with sufficient [[Knowledge]], be explained by a human. 
 
 See also:
 - [[Universal Constructor]]
+- [[People]]

@@ -9,7 +9,7 @@ Now, there are only two possible limitations to that. One is the lack of compute
 
 We've been improving our memory capacity and our speed of computation for thousands of years with the invention of things like writing, writing implements, even language itself, which enables more than one person to work on the same problem and coordinate their understanding of it. Nowadays, we use computers, and in the future we can use computer implants and so on.
 
+See also:
+- [[Universal System]]
 
---- 
-TODO
-The existence of [[Universal System]] in many fields. Badly understood pre-Enlightenment and created accidentally (and not used appropriately). Our genetic code took a mysterious jump to [[Universal System]].
+

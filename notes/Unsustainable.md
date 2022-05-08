@@ -8,7 +8,7 @@ For example, it doesn't matter how 'green' the dinosaurs were, that they didn't 
 
 [[Static Societies]], such as the inhabitants of Easter Island, eventually fail not because they use up all their resources, but because they fail to create the [[Knowledge]] to solve their problems and save themselves.
 
-In other words, the only way to keep riding this wave of unsustainability is by producing more [[Knowledge]] to solve our problems.
+In other words, the only way to keep riding this wave of unsustainability is by creating more [[Knowledge]] to solve our problems.
 
 See also:
 
