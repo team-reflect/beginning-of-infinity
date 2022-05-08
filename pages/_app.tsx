@@ -10,11 +10,11 @@ function MyApp({Component, pageProps}: AppProps) {
 
         <meta
           name="description"
-          content="Notes on David Deutsch's book. All failures are due to lack of knowledge."
+          content="Notes on David Deutsch's groundbreaking book. All failures are due to lack of knowledge."
         />
         <meta
           name="og:description"
-          content="Notes on David Deutsch's book. All failures are due to lack of knowledge."
+          content="Notes on David Deutsch's groundbreaking book. All failures are due to lack of knowledge."
         />
         <meta name="og:title" content="The Beginning of Infinity" />
         <meta name="og:url" content="https://thebeginningofinfinity.xyz" />
