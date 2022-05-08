@@ -1,4 +1,5 @@
 # Universal Computation
+Anything that can be written down as a program can be computed given the right memory and enough time.
 
 [[Explanation]]s are a form of information, and information can only be processed in basically one way—with computation of the kind invented by Babbage and Turing.
 
