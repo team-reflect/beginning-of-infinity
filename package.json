@@ -9,14 +9,15 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.4.3",
-    "calculate-position": "^1.0.2",
+    "@popperjs/core": "^2.11.5",
     "clsx": "^1.1.1",
     "front-matter": "^4.0.2",
     "lodash": "^4.17.21",
     "marked": "^4.0.12",
     "next": "12.0.10",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-popper": "^2.3.0"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.2",

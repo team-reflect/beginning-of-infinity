@@ -6,45 +6,40 @@ import React, {useEffect, useState} from 'react'
 import {NoteMarkdown} from './note-markdown'
 import {PortalBody} from './portal-body'
 import truncate from 'lodash/truncate'
+import {usePopper} from 'react-popper'
 
 export interface Props {
   path: string
-  width?: number
-  height?: number
-  padding?: number
-  coords: {
-    left: number
-    top: number
-  }
+  offset?: number
+  referenceElement: HTMLElement | null
 }
 
 export const NotePreviewPopover: React.FC<Props> = ({
   path,
-  coords,
-  width = 420,
-  height = 200,
-  padding = 15,
+  referenceElement,
+  offset = 15,
 }) => {
   const [note, setNote] = useState<Note | undefined | null>()
 
-  const anchor = {
-    left: coords.left,
-    top: coords.top,
-    width: padding,
-    height: padding,
-  }
+  const [popperElement, setPopperElement] = useState<HTMLDivElement | null>(null)
+  const [arrowElement, setArrowElement] = useState<HTMLDivElement | null>(null)
 
-  const {left, top} = calculateBestPosition({
-    anchor,
-    dimensions: {
-      width,
-      height,
-    },
+  const {styles, attributes} = usePopper(referenceElement, popperElement, {
+    strategy: 'fixed',
+    placement: 'bottom-start',
+    modifiers: [
+      {
+        name: 'offset',
+        options: {
+          offset: [offset, offset],
+        },
+      },
+
+      {name: 'arrow', options: {element: arrowElement}},
+    ],
   })
 
-  const fetchNote = async () => {
-    setNote(await getNote(path))
-  }
+  const fetchNote = async () => setNote(await getNote(path))
 
   useEffect(() => {
     fetchNote()
@@ -63,9 +58,17 @@ export const NotePreviewPopover: React.FC<Props> = ({
         leaveTo="opacity-0"
       >
         <div
-          className="absolute rounded-md shadow-lg ring-1 ring-gray-200 dark:ring-purple-700 ring-opacity-50 overflow-hidden bg-white px-5 py-4"
-          style={{left, top, width, height}}
+          ref={setPopperElement}
+          className="note-preview-popover"
+          style={styles.popper}
+          {...attributes.popper}
         >
+          <div
+            ref={setArrowElement}
+            style={styles.arrow}
+            className="note-preview-popover-arrow"
+          />
+
           {note && (
             <NoteMarkdown markdown={truncate(note.snippet, {length: 390})} size="sm" />
           )}
