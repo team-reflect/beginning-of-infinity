@@ -17,15 +17,15 @@ function MyApp({Component, pageProps}: AppProps) {
         <meta name="og:url" content="https://thebeginningofinfinity.xyz" />
         <meta name="apple-mobile-web-app-title" content="The Beginning of Infinity" />
 
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:image"
-          content="https://thebeginningofinfinity.xyz/twitter-card.png"
+          content="https://thebeginningofinfinity.xyz/twitter-summary-card.png"
         />
         <meta name="og:title" content="The Beginning of Infinity" />
         <meta
           name="og:image"
-          content="https://thebeginningofinfinity.xyz/twitter-card.png"
+          content="https://thebeginningofinfinity.xyz/twitter-summary-card.png"
         />
       </Head>
       <Component {...pageProps} />
