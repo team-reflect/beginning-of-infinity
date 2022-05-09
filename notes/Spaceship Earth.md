@@ -1,6 +1,6 @@
 # Spaceship Earth      
 
-The misconception that the earth is a unique biosphere that humans are limited to and that nature readily presents us with all our needs (food, shelter, water, etc). 
+The misconception that the earth is a unique biosphere that humans are limited to, and that nature readily presents us with all our needs (food, shelter, water, etc). 
 
 In reality earth never had our priorities in mind. Since the earliest times we had to create technology to survive. Even today, without such technology, we would only survive a few hours in say Oxford's winter.
 

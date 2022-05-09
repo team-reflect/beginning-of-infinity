@@ -23,7 +23,7 @@ export const NotesFallback: React.FC<Props> = ({initialNotes = []}) => {
   return (
     <div className="fallback flex-1 flex-col md:p-8 p-5 space-y-8 overflow-y-auto">
       <NoteMarkdown markdown={note.markdown} onClickBacklink={onClickBacklink} />
-      <NoteLinks note={note} />
+      <NoteLinks note={note} onClickBacklink={onClickBacklink} />
     </div>
   )
 }
