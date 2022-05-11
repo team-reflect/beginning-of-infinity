@@ -1,6 +1,6 @@
 # The Beginning of Infinity
 
-This is the source-code powering [thebeginningofinfinity.xyz](thebeginningofinfinity.xyz)
+This is the source-code powering [https://thebeginningofinfinity.xyz/](thebeginningofinfinity.xyz)
 
 # The book
 
