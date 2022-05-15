@@ -20,7 +20,7 @@ a {
 }
 
 .note-preview-popover {
-  @apply hidden sm:block absolute rounded-md max-w-[420px] ring-1 ring-gray-200 dark:ring-purple-700 ring-opacity-50 bg-white px-5 py-4;
+  @apply hidden sm:block absolute rounded-md max-w-[420px] ring-1 ring-gray-200 ring-opacity-50 bg-white px-5 py-4;
 
   filter: drop-shadow(0 -5px 10px rgb(0 0 0 / 0.08))
     drop-shadow(0 10px 10px rgb(0 0 0 / 0.1));
