@@ -9,6 +9,8 @@ Optimism would be futile if there were fundamental limitations to the creation o
 
 An optimistic civilization is open and not afraid to innovate, and is based on traditions of [[Criticism]]. Its institutions keep improving, and the most important knowledge that they embody is knowledge of how to detect and eliminate errors. 
 
+Optimism also infers that we should not fear extra terrestrial civilisations. They would necessarily have gone through their own [[Enlightenment]] and be [[Universal Explainers]], unlikely to willingly harm other [[People]]
+
 See also:
 - [[Dynamic Societies]]
 - [[Static Societies]]
