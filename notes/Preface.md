@@ -2,13 +2,13 @@
 title: The Beginning of Infinity
 ---
 
-The [[Beginning of Infinity]] contains an inspiring message for humanity. Author [[David Deutsch]] describes the processes through which our species has emerged from a dirt-scratching purgatory to today's towering technological heights. And how, in the future, we have the potential to achieve our wildest possible dreams. 
+The [[Beginning of Infinity]] contains an inspiring message for humanity. Author [[David Deutsch]] describes the processes through which our species has emerged from a dirt-scratching purgatory to today's towering technological heights. And how, in the future, we have the potential to achieve our wildest possible dreams.
 
-Deutsche shows that, if we choose, no problem is beyond us. With the right [[Knowledge]] humanity can have a cosmically-sized impact upon our universe. We can solve all of our problems from hunger, to global-warming, to disease, to interstellar travel. We are limited solely by the laws of nature. Our progress is but at the start of a road to infinity. 
+Deutsch shows that, if we choose, no problem is beyond us. With the right [[Knowledge]] humanity can have a cosmically-sized impact upon our universe. We can solve all of our problems from hunger, to global-warming, to disease, to interstellar travel. We are limited solely by the laws of nature. Our progress is but at the start of a road to infinity.
 
 These are some notes on the book, but we encourage you to [read the real thing](https://www.amazon.com/Beginning-Infinity-Explanations-Transform-World/dp/0143121359).
 
-----
+---
 
 We have made virtually no [[Progress]] over the vast majority of human history. Only recently (mostly since the European [[Enlightenment]]) has progress been discernible inside a human lifetime.
 
@@ -22,11 +22,11 @@ There are many misconceptions about where scientific theories are derived from. 
 
 All [[Problems]] can be solved with the right explanations limited only by the laws of nature. However the search for [[Explanation]]s will create new problems. Hence problems are inevitable.
 
-Once those explanations are recorded somewhere they become [[Knowledge]]. For billions of years [[Knowledge Creation]] was limited to our biological [[Evolution]], slow and random changes over time inscribed in our DNA. Then 7,000 years ago we invented language, 5,000 years ago writing, 582 years ago printing-presses, and very recently computers and hard-drives. Each stage has been a step change in the rate of knowledge creation, especially the jump from biological evolution to the thoughts of [[People]]. 
+Once those explanations are recorded somewhere they become [[Knowledge]]. For billions of years [[Knowledge Creation]] was limited to our biological [[Evolution]], slow and random changes over time inscribed in our DNA. Then 7,000 years ago we invented language, 5,000 years ago writing, 582 years ago printing-presses, and very recently computers and hard-drives. Each stage has been a step change in the rate of knowledge creation, especially the jump from biological evolution to the thoughts of [[People]].
 
 [[Explanation]]s are a form of information, and information can only be processed in basically one way, with [[Universal Computation]] of the kind invented by Babbage and Turing.
 
-A [[Universal System]] is one capable of representing all states. Our DNA was the first known universal system. With a combination of ATG and C you can encode a chicken or a T-Rex. Jumps from non-universal to universal systems are the milestones on the road of human progress. For example moving from hieroglyphics to the alphabet, or from tally systems to the Indian numeral system. In each case we upgraded from an inefficient and unscalable system, where each step was customized, to an efficient scalable universal system, leapfrogging human progress. 
+A [[Universal System]] is one capable of representing all states. Our DNA was the first known universal system. With a combination of ATG and C you can encode a chicken or a T-Rex. Jumps from non-universal to universal systems are the milestones on the road of human progress. For example moving from hieroglyphics to the alphabet, or from tally systems to the Indian numeral system. In each case we upgraded from an inefficient and unscalable system, where each step was customized, to an efficient scalable universal system, leapfrogging human progress.
 
 Universal Systems have [[Reach]], unintended potential. For example the computer in your washing machine could, given enough memory and time, do astrophysics calculations. Oddly most jumps to [[Universality]] have been accidents. Only since the [[Enlightenment]] has their significance been understood and sought after.
 
@@ -36,7 +36,7 @@ Both the [[Principle of Mediocrity]] (we are nothing special in this universe) a
 
 [[Technology]], once created, is automatic. We will not have to think about vacuums or the complexities around surviving in space (the same way you don't think about your house's insulation).
 
-Biological [[Evolution]] was a precursor to the main story of evolution, the unbounded evolution of [[Memes]]: ideas that cause themselves to replicate (aka [[Replicators]]). In many ways memes are analogous to genes, but there are also profound differences in the way they evolve. 
+Biological [[Evolution]] was a precursor to the main story of evolution, the unbounded evolution of [[Memes]]: ideas that cause themselves to replicate (aka [[Replicators]]). In many ways memes are analogous to genes, but there are also profound differences in the way they evolve.
 
 Think of [[Memes]] as any ideas that are passed between lots of people. For example, a language, scientific theory, or religious belief are all memes. Memes have to be actively replicated to survive (i.e. spoken or written and distributed). A [[Rational Meme]] is a [[Good Explanation]] that relies on the recipient's critical faculties to cause itself to be replicated. An [[Anti-rational Meme]] is a [[Bad Explanation]] and invariably relies on hijacking base emotions for replication (tapping into fear or anger). A collection of [[Memes]] forms a [[Culture]].
 
