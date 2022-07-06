@@ -86,6 +86,16 @@ const tokenToElement = (token: marked.Tokens.Generic, options: MarkdownOptions) 
       return <li>{tokensToElements(token.tokens || [], options)}</li>
     case 'space':
       return <></>
+    case 'code':
+      return (
+        <pre>
+          <code>
+            {textTokenToElement(token as marked.Tokens.Text, options)}
+          </code>
+        </pre>
+      )
+    case 'strong':
+      return <strong>{tokensToElements(token.tokens || [], options)}</strong>
     default:
       console.error('Unknown token type:', token.type)
       return <></>
